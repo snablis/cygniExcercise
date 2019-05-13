@@ -1,0 +1,41 @@
+Create Structure
+Status: Fixed
+Description: Find a usefull structure for the project
+Time:2h
+Solution: Use boilerplate for Es6 from https://github.com/metagrover/ES6-boilerplate. Includes easy implementation of Webpack (to enable SASS) and linting for tests. 
+
+API for Flickr
+Status: Fixed
+Description: Create a good structure for an asynchronous API call to get images from Flickr 
+Time: 3h
+Solution: Use ES6 fetch method with fetch .then and .catch for easy readability
+
+Implement SASS
+Status: Won't Fix
+Description: Implement SASS for better readability of the CSS.
+Time: 30min
+Solution: Installed SASS-loader https://github.com/webpack-contrib/sass-loader. Won't work with the initial installation according to the description, not a prio.
+
+Style image width
+Status:
+Description: Style size of the image to fill width of the screen and independant of the surrounding elements of the website
+Time: 30min
+Solution: Implement % width on the images and a container to hold the images. The container have a fixed position and wont allow overflow if the images.
+
+Endless scroll
+Status:
+Description: Implement loader and trigger at the bottom of the page to renew teh API call. Should not fetch already seen images.
+Time: 
+Solution:
+
+Style title and font
+Status:
+Description: Style of the webpage. Get some feedback from friends regarding style and features. 
+Time: 
+Solution:
+
+Title and the description of the image
+Status:
+Description: Style of the webpage. Get some feedback from friends regarding style and features. 
+Time: 
+Solution:

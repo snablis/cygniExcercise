@@ -18,11 +18,11 @@ fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=do
     .then((data) => {
         const myJson = JSON.parse(data.slice(14, -1)); // convert JSONP to JSON
         const photoList = myJson.photos.photo;
-        let output = '<h2>Photos</h2>';
+        let output = '';
         Object.keys(photoList).forEach(photo => {
             // console.log(photoList[photo]);
             output += `
-            <img  src="https://farm${photoList[photo].farm}.staticflickr.com/${photoList[photo].server}/${photoList[photo].id}_${photoList[photo].secret}.jpg">
+            <img width="100%" height="*" src="https://farm${photoList[photo].farm}.staticflickr.com/${photoList[photo].server}/${photoList[photo].id}_${photoList[photo].secret}.jpg">
             `;
         });
         document.getElementById('output').innerHTML = output;
