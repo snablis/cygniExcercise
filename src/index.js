@@ -27,4 +27,3 @@ fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=do
         loader = '<p>No doggos found :( </p>';
         document.getElementById('output').innerHTML = loader;
     });
-

@@ -1,8 +1,9 @@
 Create Structure
-Status: Fixed
+Status: Changed
 Description: Find a usefull structure for the project
 Time:2h
 Solution: Use boilerplate for Es6 from https://github.com/metagrover/ES6-boilerplate. Includes easy implementation of Webpack (to enable SASS) and linting for tests. 
+Change: Create zip containing only html, css, js and ToDo reducing risk of implementing/including anything not included in the task description.
 
 API for Flickr
 Status: Fixed
@@ -28,25 +29,25 @@ Description: Implement loader and trigger at the bottom of the page to renew teh
 Time: 
 Solution:
 
+Handle error in loading a faulty images
+Status: 
+Description: 
+Time: 10min
+Solution: 
+
 Style title and font
 Status:
 Description: Style of the webpage. Get some feedback from friends regarding style and features. Title and the description of the images? 
 Time: 
 Solution:
 
-Handle error in loading and faulty images
-Status:
-Description: 
-Time: 
-Solution:
+Set a loading screen when loading the page and error when not recieving any results
+Status: Fixed
+Description: Add a loading screen
+Time: 10min
+Solution: add loader <p> before the fetch frase and change the loader depepending on error or success
 
-Set a loading screen when loading the page
-Status:
-Description:
-Time: 
-Solution:
-
-Show error on loading page
+Handle error in loading a faulty images
 Status:
 Description:
 Time: 
