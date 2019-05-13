@@ -25,6 +25,10 @@ body{
     
 }
 
+#output p {
+    font-size: 5em;
+}
+
 .ImgContainer {
     position: absolute; /* Create an container to make it independet of other content on the site */
     top: 200px;
