@@ -1,13 +1,3 @@
-// Example function
-const sayHello = () => {
-    /*eslint-disable no-console */
-    console.log("Allo! We are all set!");
-    console.log("Arrow functions are working");
-};
-
-sayHello();
-
-// https://www.flickr.com/services/api/flickr.photos.search.html
 fetch('https://api.flickr.com/services/rest/?method=flickr.photos.search&tags=dog&api_key=795e25298b0974e961992509b8830632&format=json', {
 
 })
